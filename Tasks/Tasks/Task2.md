@@ -1,4 +1,4 @@
-#Difference between Window and Object in JavaScript.
+# Difference between Window and Object in JavaScript.
 
 
 
