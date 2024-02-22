@@ -12,7 +12,7 @@
 |We can not access windows objects properties inside the document.|We can access document object properties inside the window.|
 | ```logically:
 
-document:{ properties} ````|
+document:{ properties} ```|
 ```
 logically:
 
