@@ -10,11 +10,7 @@
 |It is the root element of the document object model.|The window is the global element for all objects, functions, etc.|
 |It is an object of window.|It is an object of the browser.|
 |We can not access windows objects properties inside the document.|We can access document object properties inside the window.|
-| logically:
-
-document:{ properties} |
-logically:
-
+| logically:  document:{ properties} |logically:
     window:{
         document:{properties}
     }
