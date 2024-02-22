@@ -2,7 +2,7 @@ This is the consolidated Markdown file created for the Day 3 tasks.
 
 # DAY 3 TASK
 
-> ## Compare Two JSON
+> ## 1. Compare Two JSON
 
 Given the objects are:
 
@@ -40,3 +40,12 @@ if(objectsAreEqual){
 Output for the given string:
 
 ![](https://github.com/tsk-balaji/MainBootCamp/blob/main/Tasks/Tasks/TaskScreenshot/Task3.1.png)
+
+
+
+
+
+
+> ## 2.  Display all the countries flag in console.
+>
+> 
