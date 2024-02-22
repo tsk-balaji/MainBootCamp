@@ -37,5 +37,6 @@ if(objectsAreEqual){
 }
 
 ```
+Output for the given string:
 
-
+![](https://github.com/tsk-balaji/MainBootCamp/blob/main/Tasks/Tasks/TaskScreenshot/Task3.1.png)
