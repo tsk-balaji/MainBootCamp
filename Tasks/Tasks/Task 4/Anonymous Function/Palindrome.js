@@ -15,20 +15,18 @@ inp.on("close", () => {
   //start-here
   //Your code goes here … replace the below line with your code logic 
 
-let arr = userInput[0].split(" ").map(Number);
-let oddNumbersArray = [];
+let arr = userInput[0];
 
-let oddNumbers = function () {
-   for (i in arr) {
-       if (arr[i] %2 != 0){
-       oddNumbersArray.push(arr[i]);
-   }   
+let palindrome = function () {
+    if (arr.toLowerCase() === arr.split("").reverse().join("").toLowerCase()){
+        console.log("Yes");
+    } else {
+        console.log("No");
+    }
 };
-   console.log(oddNumbersArray.join(" "));
 
-}
-
-oddNumbers();
+ 
+palindrome();
 
   //end-here
 });

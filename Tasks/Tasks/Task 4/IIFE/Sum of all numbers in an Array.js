@@ -1,3 +1,4 @@
+
 // Getting input via STDIN
 const readline = require("readline");
 
@@ -16,19 +17,14 @@ inp.on("close", () => {
   //Your code goes here … replace the below line with your code logic 
 
 let arr = userInput[0].split(" ").map(Number);
-let oddNumbersArray = [];
+sum = 0;
 
-let oddNumbers = function () {
-   for (i in arr) {
-       if (arr[i] %2 != 0){
-       oddNumbersArray.push(arr[i]);
-   }   
-};
-   console.log(oddNumbersArray.join(" "));
-
-}
-
-oddNumbers();
-
+(function(arr1){
+    for (let i=0; i<arr1.length; i++){
+        sum += arr1[i];
+        }
+        console.log(sum);
+    }
+)(arr)
   //end-here
 });

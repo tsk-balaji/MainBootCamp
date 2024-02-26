@@ -1,3 +1,4 @@
+
 // Getting input via STDIN
 const readline = require("readline");
 
@@ -15,20 +16,19 @@ inp.on("close", () => {
   //start-here
   //Your code goes here … replace the below line with your code logic 
 
-let arr = userInput[0].split(" ").map(Number);
-let oddNumbersArray = [];
+let arr = userInput[0].split(" ");
 
-let oddNumbers = function () {
-   for (i in arr) {
-       if (arr[i] %2 != 0){
-       oddNumbersArray.push(arr[i]);
-   }   
+
+let titleCase = () => {
+    for (let i=0; i<arr.length; i++){
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    console.log(arr.join(" "));
 };
-   console.log(oddNumbersArray.join(" "));
 
-}
+titleCase();
 
-oddNumbers();
-
-  //end-here
+//end-here
 });
+
+

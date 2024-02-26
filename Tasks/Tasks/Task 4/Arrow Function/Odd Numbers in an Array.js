@@ -18,7 +18,7 @@ inp.on("close", () => {
 let arr = userInput[0].split(" ").map(Number);
 let oddNumbersArray = [];
 
-let oddNumbers = function () {
+let oddNumbers =  () => {
    for (i in arr) {
        if (arr[i] %2 != 0){
        oddNumbersArray.push(arr[i]);

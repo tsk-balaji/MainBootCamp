@@ -18,17 +18,15 @@ inp.on("close", () => {
 let arr = userInput[0].split(" ").map(Number);
 let oddNumbersArray = [];
 
-let oddNumbers = function () {
-   for (i in arr) {
-       if (arr[i] %2 != 0){
-       oddNumbersArray.push(arr[i]);
+(function (arr1) {
+   for (i in arr1) {
+       if (arr1[i] %2 != 0){
+       oddNumbersArray.push(arr1[i]);
    }   
 };
    console.log(oddNumbersArray.join(" "));
 
-}
-
-oddNumbers();
+})(arr)
 
   //end-here
 });
